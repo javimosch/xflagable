@@ -1,6 +1,6 @@
----
-title: XFlagable
----
+
+# XFlagable
+
 
 ### Initialization
 
