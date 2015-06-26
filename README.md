@@ -1,6 +1,28 @@
----
-title: XFlagable
----
+XFlagable
+=========
+
+ 
+
+### Description
+
+flagable is a small tool (2.8kb) that let you crete 'flags' (who has several
+boolean properties, I call it buttons). You can toggle these 'buttons' over time
+from anywhere until all buttons are true and then the flag is rised, calling all
+callbacks you may register with.
+
+ 
+
+Use Examples:
+
+\- You need to toggle something, and you require N async operations to execute
+before.
+
+\- You need to execute something that require operations from several parts of
+your app, some times hard from access due to frameworks complexity.
+
+ 
+
+ 
 
 ### Initialization
 
