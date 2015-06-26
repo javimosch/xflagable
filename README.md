@@ -44,20 +44,12 @@ myObject.$flag('set','myFlag','key2',true);
 
  
 
-+----------------------+-------------------------------+----------------------------------------------------------+---------+
-| Action               | Description                   | Parameters                                               | Return  |
-+----------------------+-------------------------------+----------------------------------------------------------+---------+
-| create               | Creates a flag                | (action,flagName,arrayOfKeys[],callback or               | nothing |
-|                      |                               | arrayOfCallbacks[])                                      |         |
-+----------------------+-------------------------------+----------------------------------------------------------+---------+
-| createFromArray      | Creates a flag                | (action,flagName,arrayOfObjects,propNameOfObjectInArray, | nothing |
-|                      |                               | callback or arrayOfCallbacks[])                          |         |
-+----------------------+-------------------------------+----------------------------------------------------------+---------+
-| set                  | Setter for flag key           | (action,flagName,keyName,keyValue)                       | nothing |
-+----------------------+-------------------------------+----------------------------------------------------------+---------+
-| cb                   | Setter for callbacks          | (action,flagName,callback or arrayOfCallbacks[])         | nothing |
-+----------------------+-------------------------------+----------------------------------------------------------+---------+
-| rised or ok or ready | Getter for All Flag Keys true | (action,flagName)                                        | boolean |
-+----------------------+-------------------------------+----------------------------------------------------------+---------+
+| Action               | Description                   | Parameters                                                                               | Return  |
+|----------------------|-------------------------------|------------------------------------------------------------------------------------------|---------|
+| create               | Creates a flag                | (action,flagName,arrayOfKeys[],callback or arrayOfCallbacks[])                           | nothing |
+| createFromArray      | Creates a flag                | (action,flagName,arrayOfObjects,propNameOfObjectInArray, callback or arrayOfCallbacks[]) | nothing |
+| set                  | Setter for flag key           | (action,flagName,keyName,keyValue)                                                       | nothing |
+| cb                   | Setter for callbacks          | (action,flagName,callback or arrayOfCallbacks[])                                         | nothing |
+| rised or ok or ready | Getter for All Flag Keys true | (action,flagName)                                                                        | boolean |
 
  
