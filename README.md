@@ -20,9 +20,6 @@ before.
 \- You need to execute something that require operations from several parts of
 your app, some times hard from access due to frameworks complexity.
 
- 
-
- 
 
 ### Initialization
 
